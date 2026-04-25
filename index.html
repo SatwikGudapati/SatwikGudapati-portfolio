@@ -1,123 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Satwik Gudapati - Portfolio</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Satwik Gudapati | Senior AI/ML Engineer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
-  <!-- Navigation Bar -->
-  <header>
-    <nav>
-      <ul>
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#education">Education</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
+    <nav class="navbar">
+        <div class="logo">SG<span>.</span></div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact" class="btn-small">Contact</a></li>
+        </ul>
     </nav>
-  </header>
 
-  <!-- Hero Section -->
-  <section class="hero">
-    <img src="profile-picture.jpg" alt="Satwik Gudapati" class="profile-pic">
-    <h1>Hi, I’m <span>Satwik Gudapati</span></h1>
-    <p>Technical Consultant | Software Engineer</p>
-    <div class="buttons">
-      <a href="Satwik Resume.pdf" class="btn">View Resume</a>
-      <a href="#contact" class="btn">Contact Me</a>
-    </div>
-  </section>  
+    <section class="hero">
+        <div class="hero-content" data-aos="fade-right">
+            <h1>Satwik Gudapati</h1>
+            <h2 class="typing-text">Senior AI/ML Engineer</h2>
+            <p>Specializing in <strong>Generative AI, RAG, and LLM Fine-tuning</strong> with 6 years of experience building enterprise-scale systems[cite: 4, 6].</p>
+            <div class="hero-btns">
+                <a href="Satwik.Gudapati.pdf" class="btn primary">Download Resume</a>
+                <a href="#experience" class="btn secondary">View Work</a>
+            </div>
+        </div>
+        <div class="hero-image" data-aos="zoom-in">
+            <div class="glass-circle">
+                <img src="profile-picture.jpg" alt="Satwik Gudapati">
+            </div>
+        </div>
+    </section>
 
-  <!-- About Me Section -->
-  <section id="about" data-aos="fade-up">
-    <h2>About Me</h2>
-    <p>I am a results-driven professional specializing in software development and production support currently pursuing my Masters in Information Science with specialization in Machine Learning at University of Arizona</p>
-  </section>
+    <section id="about" class="section">
+        <h2 class="section-title" data-aos="fade-up">Professional Summary</h2>
+        <div class="about-container" data-aos="fade-up">
+            <p>
+                AI/ML Engineer with 6 years of experience developing and deploying machine learning and generative AI systems across enterprise platforms[cite: 4]. 
+                Expert in building data pipelines, training deep learning models, and integrating AI services into production applications using Python and cloud infrastructure[cite: 5].
+            </p>
+        </div>
+    </section>
 
-  <!-- Experience Section -->
-  <section id="experience" data-aos="fade-up">
-    <h2>Professional Experience</h2>
-    <div class="experience">
-      <h3>Randstad India</h3>
-      <p>Senior Technical Consultant | Feb 2024 - Nov 2024</p>
-      <ul>
-        <li>Designed functional specifications aligned with client requirements to ensure seamless project delivery.</li>
-        <li>Prepared comprehensive technical design documentation to support development and implementation processes.</li>
-        <li>Developed, tested, and deployed software changes within specified timelines, ensuring high-quality standards.</li>
-        <li>Managed project updates and progress tracking using ticketing tools for efficient workflow and communication.</li>
-        <!-- Add more responsibilities here -->
-      </ul>
-    </div>
-    <div class="experience">
-        <h3>Oracle Cerner Healthcare Solution Pvt Ltd</h3>
-        <p>Software Engineer 1 | May 2022 - Dec 2023</p>
-        <ul>
-          <li>Took charge of integrating third-party insurance grouping and reimbursement software with our billing software to ensure accurate calculation of claim reimbursement for our client's services.</li>
-          <li>Performed the crucial task of documenting test cases and generating audit reports for clients, ensuring timely delivery on a weekly, monthly, and quarterly basis.</li>
-          <li>Assumed the responsibility of monitoring clients' day-end update jobs on a weekly rotational basis, ensuring their smooth execution . Proactively addressed and resolved any encountere.</li>
-          <li>Performed the crucial task of documenting test cases and generating audit reports for clients, ensuring timely delivery on a weekly, monthly, and quarterly basis.</li>
-          <!-- Add more responsibilities here -->
-        </ul>
-      </div>
-      <div class="experience">
-        <h3>Accenture PLC</h3>
-        <p>Associate Software Engineer | Dec 2019 - May 2022</p>
-        <ul>
-          <li>Own and assist others in debugging and documenting root cause analysis and resolution.</li>
-          <li>Identify process improvements at the team level to support operations and development ecosystem.</li>
-          <li>Delegate the work appropriately, provide clear expectations and follow up to ensure progress and overcome roadblocks. Identify associates and team priorities based on business direction and adjust when needed.</li>
-          <li>Mentor and train new associates within team and training programs.</li>
-          <!-- Add more responsibilities here -->
-        </ul>
-      </div>
-    <!-- Add Oracle Cerner and Accenture experience similarly -->
-  </section>
+    <section id="experience" class="section bg-alt">
+        <h2 class="section-title" data-aos="fade-up">Professional Journey</h2>
+        <div class="timeline">
+            <div class="timeline-item" data-aos="fade-left">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="date">Jul 2025 - Present</span>
+                    <h3>Senior AI/ML Engineer</h3>
+                    <h4>Adobe | USA</h4>
+                    <ul>
+                        <li>Developed RAG workflows for document intelligence, improving answer relevance by 62%[cite: 24, 26].</li>
+                        <li>Applied LoRA/QLoRA tuning to LLMs, reducing GPU costs by 41%[cite: 27].</li>
+                        <li>Increased document processing throughput by ~52% through AI integration[cite: 28].</li>
+                    </ul>
+                </div>
+            </div>
 
-  <!-- Skills Section -->
-  <section id="skills" data-aos="fade-up">
-    <h2>Technical Skills</h2>
-    <div class="skills-grid">
-      <div class="skill">Python</div>
-      <div class="skill">SQL</div>
-      <div class="skill">COBOL</div>
-      <div class="skill">JCL</div>
-      <div class="skill">DB2</div>
-      <div class="skill">CICS</div>
-    </div>
-  </section>
+            <div class="timeline-item" data-aos="fade-right">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="date">Jan 2021 - Dec 2023</span>
+                    <h3>AI/ML Engineer</h3>
+                    <h4>Wipro | India</h4>
+                    <ul>
+                        <li>Raised forecasting accuracy by 57% using gradient boosting and neural networks[cite: 34].</li>
+                        <li>Shortened model testing cycles by 49% using structured experiment tracking[cite: 35].</li>
+                        <li>Built enterprise predictive models and managed end-to-end data pipelines[cite: 32, 33].</li>
+                    </ul>
+                </div>
+            </div>
 
-  <!-- Education Section -->
-  <section id="education" data-aos="fade-up">
-    <h2>Education</h2>
-    <ul>
-      <li><strong>Gudlavalleru Engineering College:</strong> B.Tech (2014 – 2018) | CGPA: 6.71</li>
-      <li><strong>Narayana Junior College:</strong> Intermediate (2012 – 2014) | 95.6%</li>
-      <li><strong>St. Ann’s E.M High School:</strong> SSC (2011 – 2012) | CGPA: 9.5</li>
-    </ul>
-  </section>
+            <div class="timeline-item" data-aos="fade-left">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="date">Jan 2018 - Dec 2020</span>
+                    <h3>Junior AI/ML Engineer</h3>
+                    <h4>Haptik AI | India</h4>
+                    <ul>
+                        <li>Improved chatbot response relevance by 54% through dialogue model training[cite: 42].</li>
+                        <li>Increased intent classification accuracy by 51% via updated NLP pipelines[cite: 43].</li>
+                        <li>Expanded usable conversational datasets by 48%[cite: 41].</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <!-- Contact Section -->
-  <section id="contact" data-aos="fade-up">
-    <h2>Contact Me</h2>
-    <p>Email: <a href="mailto:Satwik1919@gmail.com">Satwik1919@gmail.com</a></p>
-    <p>Phone: +91-9553325033</p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/satwik-gudapati">Visit My Profile</a></p>
-  </section>
+    <section id="skills" class="section">
+        <h2 class="section-title" data-aos="fade-up">Technical Arsenal</h2>
+        <div class="skills-grid">
+            <div class="skill-card" data-aos="flip-left">
+                <i class="fas fa-robot"></i>
+                <h3>Generative AI</h3>
+                <p>LLMs, RAG, LoRA, QLoRA, LangChain, LangGraph, Prompt Engineering.</p>
+            </div>
+            <div class="skill-card" data-aos="flip-left" data-delay="100">
+                <i class="fas fa-brain"></i>
+                <h3>Deep Learning</h3>
+                <p>PyTorch, TensorFlow, CNN, RNN, Transformers, Scikit-learn[cite: 11, 12].</p>
+            </div>
+            <div class="skill-card" data-aos="flip-left" data-delay="200">
+                <i class="fas fa-cloud"></i>
+                <h3>MLOps & Cloud</h3>
+                <p>AWS (SageMaker), GCP (Vertex AI), Docker, Kubernetes, MLflow[cite: 16, 18].</p>
+            </div>
+            <div class="skill-card" data-aos="flip-left" data-delay="300">
+                <i class="fas fa-code"></i>
+                <h3>Engineering</h3>
+                <p>Python, SQL, FastAPI, Spark, Vector Databases (FAISS, Pinecone)[cite: 10, 15, 19].</p>
+            </div>
+        </div>
+    </section>
 
-  <!-- Footer -->
-  <footer>
-    <p>&copy; 2024 Satwik Gudapati. All rights reserved.</p>
-  </footer>
+    <section id="education" class="section bg-alt">
+        <h2 class="section-title" data-aos="fade-up">Education</h2>
+        <div class="edu-card" data-aos="zoom-in">
+            <i class="fas fa-university"></i>
+            <h3>Master of Science in Information Science</h3>
+            <p>University of Arizona, Tucson, AZ [cite: 48]</p>
+            <span class="date">Jan 2024 - Dec 2025 [cite: 49]</span>
+        </div>
+    </section>
 
-  <script src="script.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
+    <section id="contact" class="section">
+        <div class="contact-card" data-aos="fade-up">
+            <h2>Let's Collaborate</h2>
+            <p>Based in Arizona, USA. Open to Hybrid/Remote opportunities.</p>
+            <div class="contact-links">
+                <a href="mailto:satwikgudapati9@gmail.com"><i class="fas fa-envelope"></i> satwikgudapati9@gmail.com</a>
+                <a href="tel:+18174039114"><i class="fas fa-phone"></i> +1 817-403-9114</a>
+                <a href="https://linkedin.com/in/satwik-gudapati" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Satwik Gudapati. Built with Passion & AI.</p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({ duration: 1000, once: true });
+    </script>
 </body>
 </html>
